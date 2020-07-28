@@ -820,7 +820,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "cd \"$APR_SVN\"\nLIBS=\"svn_client svn_subr svn_fs apr\" # svn_wc\nif [ \"$APR_SVN.c\" -nt libapr.dylib ]; then\n\tfunction CC () {\n\t#\techo \"  <$1> <$2>\"\n\t\tgcc -Iapr -iquotesvn -dynamiclib -nodefaultlibs -arch ${2} -install_name \\\n\t\t\t\"@executable_path/../Frameworks/lib${1}.dylib\" -o lib${1}.${2} -DLIB_${1} \"$APR_SVN.c\"\n\t}\n\n\tfor LIB in $LIBS; {\n\t\techo \"Making $LIB\"\n\t\tCC \"$LIB\" 'x86-64'\n        lipo -create lib${LIB}.x86-64 -output lib${LIB}.dylib\n        rm lib${LIB}.x86-64\n\t}\nfi\n\n\n";
+			shellScript = "cd \"$APR_SVN\"\nLIBS=\"svn_client svn_subr svn_fs apr\" # svn_wc\nif [ \"$APR_SVN.c\" -nt libapr.dylib ]; then\n\tfunction CC () {\n\t#\techo \"  <$1> <$2>\"\n\t\tgcc -Iapr -iquotesvn -dynamiclib -nodefaultlibs -arch ${2} -install_name \\\n\t\t\t\"@executable_path/../Frameworks/lib${1}.dylib\" -o lib${1}.${2} -DLIB_${1} \"$APR_SVN.c\"\n\t}\n\n\tfor LIB in $LIBS; {\n\t\techo \"Making $LIB\"\n\t\tCC \"$LIB\" 'x86_64'\n        lipo -create lib${LIB}.x86_64 -output lib${LIB}.dylib\n        rm lib${LIB}.x86_64\n\t}\nfi\n\n\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
