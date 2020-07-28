@@ -1049,6 +1049,7 @@
 				SPARKLE_BUILD = $SRCROOT/sparkle/build/Release;
 				SVN_LIBS = /opt/subversion/lib;
 				USER_HEADER_SEARCH_PATHS = "$APR_SVN/svn $(inherited)";
+				VALID_ARCHS = x86_64;
 			};
 			name = Release;
 		};
@@ -1131,6 +1132,7 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SVN_LIBS = /opt/subversion/lib;
 				USER_HEADER_SEARCH_PATHS = "$APR_SVN/svn $(inherited)";
+				VALID_ARCHS = x86_64;
 			};
 			name = Debug;
 		};
