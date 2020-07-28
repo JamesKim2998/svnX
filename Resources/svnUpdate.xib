@@ -76,43 +76,43 @@ Gw
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         <size key="cellSize" width="304" height="18"/>
                         <size key="intercellSpacing" width="4" height="6"/>
-                        <buttonCell key="prototype" type="radio" title="Radio" imagePosition="leading" alignment="left" inset="2" id="1310">
+                        <buttonCell key="prototype" type="radio" title="Radio" imagePosition="left" alignment="left" inset="2" id="1310">
                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
                         <cells>
                             <column>
-                                <buttonCell type="radio" title="HEAD - latest in repository" imagePosition="leading" alignment="left" state="on" tag="201" inset="2" id="956">
+                                <buttonCell type="radio" title="HEAD - latest in repository" imagePosition="left" alignment="left" state="on" tag="201" inset="2" id="956">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                     <string key="keyEquivalent">1</string>
                                     <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                                 </buttonCell>
-                                <buttonCell type="radio" title="BASE - base rev of item’s working copy" imagePosition="leading" alignment="left" tag="202" inset="2" id="957">
+                                <buttonCell type="radio" title="BASE - base rev of item’s working copy" imagePosition="left" alignment="left" tag="202" inset="2" id="957">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                     <string key="keyEquivalent">2</string>
                                     <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                                 </buttonCell>
-                                <buttonCell type="radio" title="COMMITTED - last commit at or before BASE" imagePosition="leading" alignment="left" tag="203" inset="2" id="958">
+                                <buttonCell type="radio" title="COMMITTED - last commit at or before BASE" imagePosition="left" alignment="left" tag="203" inset="2" id="958">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                     <string key="keyEquivalent">3</string>
                                     <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                                 </buttonCell>
-                                <buttonCell type="radio" title="PREV - revision just before COMMITTED" imagePosition="leading" alignment="left" tag="204" inset="2" id="959">
+                                <buttonCell type="radio" title="PREV - revision just before COMMITTED" imagePosition="left" alignment="left" tag="204" inset="2" id="959">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                     <string key="keyEquivalent">4</string>
                                     <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                                 </buttonCell>
-                                <buttonCell type="radio" title="Number:" imagePosition="leading" alignment="left" tag="205" inset="2" id="960">
+                                <buttonCell type="radio" title="Number:" imagePosition="left" alignment="left" tag="205" inset="2" id="960">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                     <string key="keyEquivalent">5</string>
                                     <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                                 </buttonCell>
-                                <buttonCell type="radio" title="Date:" imagePosition="leading" alignment="left" tag="206" inset="2" id="961">
+                                <buttonCell type="radio" title="Date:" imagePosition="left" alignment="left" tag="206" inset="2" id="961">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                     <string key="keyEquivalent">6</string>
@@ -169,7 +169,7 @@ Gw
                     <button hidden="YES" fixedFrame="YES" tag="301" imageHugsTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="965">
                         <rect key="frame" x="18" y="71" width="124" height="18"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <buttonCell key="cell" type="check" title="Recursive" bezelStyle="regularSquare" imagePosition="leading" alignment="left" state="on" tag="104" inset="2" id="1296">
+                        <buttonCell key="cell" type="check" title="Recursive" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" tag="104" inset="2" id="1296">
                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                             <font key="font" metaFont="system"/>
                             <string key="keyEquivalent">r</string>
@@ -179,7 +179,7 @@ Gw
                     <button fixedFrame="YES" tag="105" imageHugsTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="966">
                         <rect key="frame" x="18" y="48" width="191" height="18"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <buttonCell key="cell" type="check" title="Ignore External Definitions" bezelStyle="regularSquare" imagePosition="leading" alignment="left" tag="105" inset="2" id="1297">
+                        <buttonCell key="cell" type="check" title="Ignore External Definitions" bezelStyle="regularSquare" imagePosition="left" alignment="left" tag="105" inset="2" id="1297">
                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                             <font key="font" metaFont="system"/>
                             <string key="keyEquivalent">i</string>
@@ -189,7 +189,7 @@ Gw
                     <button fixedFrame="YES" tag="300" imageHugsTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1320">
                         <rect key="frame" x="18" y="28" width="124" height="18"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <buttonCell key="cell" type="check" title="Force Operation" bezelStyle="regularSquare" imagePosition="leading" alignment="left" tag="104" inset="2" id="1321">
+                        <buttonCell key="cell" type="check" title="Force Operation" bezelStyle="regularSquare" imagePosition="left" alignment="left" tag="104" inset="2" id="1321">
                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                             <font key="font" metaFont="system"/>
                             <string key="keyEquivalent">f</string>

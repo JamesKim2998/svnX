@@ -75,25 +75,25 @@
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         <size key="cellSize" width="179" height="20"/>
                         <size key="intercellSpacing" width="4" height="0.0"/>
-                        <buttonCell key="prototype" type="radio" title="Radio" imagePosition="leading" alignment="left" scrollable="YES" lineBreakMode="clipping" inset="2" id="1311">
+                        <buttonCell key="prototype" type="radio" title="Radio" imagePosition="left" alignment="left" scrollable="YES" lineBreakMode="clipping" inset="2" id="1311">
                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
                         <cells>
                             <column>
-                                <buttonCell type="radio" title="Single Change" imagePosition="leading" alignment="left" scrollable="YES" lineBreakMode="clipping" state="on" toolTip="The single change indicated by source URL." tag="101" inset="2" id="1032">
+                                <buttonCell type="radio" title="Single Change" imagePosition="left" alignment="left" scrollable="YES" lineBreakMode="clipping" state="on" toolTip="The single change indicated by source URL." tag="101" inset="2" id="1032">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                     <string key="keyEquivalent">1</string>
                                     <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                                 </buttonCell>
-                                <buttonCell type="radio" title="Changes Since Revision:" imagePosition="leading" alignment="left" scrollable="YES" lineBreakMode="clipping" toolTip="All the changes to source URL since this revision." tag="102" inset="2" id="1033">
+                                <buttonCell type="radio" title="Changes Since Revision:" imagePosition="left" alignment="left" scrollable="YES" lineBreakMode="clipping" toolTip="All the changes to source URL since this revision." tag="102" inset="2" id="1033">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                     <string key="keyEquivalent">2</string>
                                     <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                                 </buttonCell>
-                                <buttonCell type="radio" title="Reintegrate" imagePosition="leading" alignment="left" scrollable="YES" lineBreakMode="clipping" tag="103" inset="2" id="1034">
+                                <buttonCell type="radio" title="Reintegrate" imagePosition="left" alignment="left" scrollable="YES" lineBreakMode="clipping" tag="103" inset="2" id="1034">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                     <string key="toolTip">Lump-merge all of source URL’s unmerged changes.
@@ -101,7 +101,7 @@
                                     <string key="keyEquivalent">3</string>
                                     <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                                 </buttonCell>
-                                <buttonCell type="radio" title="Differences With:" imagePosition="leading" alignment="left" scrollable="YES" lineBreakMode="clipping" toolTip="The differences between the source URL above &amp; source URL 2." tag="104" inset="2" id="1325">
+                                <buttonCell type="radio" title="Differences With:" imagePosition="left" alignment="left" scrollable="YES" lineBreakMode="clipping" toolTip="The differences between the source URL above &amp; source URL 2." tag="104" inset="2" id="1325">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                     <string key="keyEquivalent">4</string>
@@ -183,7 +183,7 @@ DQ
                     <button toolTip="Un-apply the change, or reverse the order of the range/2 URLs." fixedFrame="YES" tag="5" imageHugsTitle="YES" id="1009">
                         <rect key="frame" x="17" y="65" width="120" height="18"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="check" title="Reverse Merge" bezelStyle="regularSquare" imagePosition="leading" alignment="left" tag="5" inset="2" id="1302">
+                        <buttonCell key="cell" type="check" title="Reverse Merge" bezelStyle="regularSquare" imagePosition="left" alignment="left" tag="5" inset="2" id="1302">
                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                             <font key="font" metaFont="system"/>
                             <string key="keyEquivalent">r</string>
@@ -193,7 +193,7 @@ DQ
                     <button hidden="YES" fixedFrame="YES" tag="301" imageHugsTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1038">
                         <rect key="frame" x="171" y="65" width="130" height="18"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="check" title="Recursive" bezelStyle="regularSquare" imagePosition="leading" alignment="left" state="on" tag="6" inset="2" id="1308">
+                        <buttonCell key="cell" type="check" title="Recursive" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" tag="6" inset="2" id="1308">
                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                             <font key="font" metaFont="system"/>
                             <string key="keyEquivalent">r</string>
@@ -216,7 +216,7 @@ DQ
                     <button toolTip="Ignore ancestry when calculating merges." fixedFrame="YES" tag="16" imageHugsTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1319">
                         <rect key="frame" x="17" y="44" width="130" height="18"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="check" title="Ignore Ancestry" bezelStyle="regularSquare" imagePosition="leading" alignment="left" tag="5" inset="2" id="1320">
+                        <buttonCell key="cell" type="check" title="Ignore Ancestry" bezelStyle="regularSquare" imagePosition="left" alignment="left" tag="5" inset="2" id="1320">
                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                             <font key="font" metaFont="system"/>
                             <string key="keyEquivalent">i</string>
@@ -228,7 +228,7 @@ DQ
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <string key="toolTip">Mark revisions as merged.
 (Requires svn 1.6+.)</string>
-                        <buttonCell key="cell" type="check" title="Record Only" bezelStyle="regularSquare" imagePosition="leading" alignment="left" tag="5" inset="2" id="1324">
+                        <buttonCell key="cell" type="check" title="Record Only" bezelStyle="regularSquare" imagePosition="left" alignment="left" tag="5" inset="2" id="1324">
                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                             <font key="font" metaFont="system"/>
                             <string key="keyEquivalent">o</string>
