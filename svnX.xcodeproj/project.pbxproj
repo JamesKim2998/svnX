@@ -156,8 +156,8 @@
 		6CCE143E24CFA14A00A447DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		6CCE143F24CFA14A00A447DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6CCE144024CFA14A00A447DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		6CCE144124CFA14A00A447DD /* en */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = en; path = en.lproj/MyWorkingCopy.nib; sourceTree = "<group>"; };
-		6CCE144224CFA14B00A447DD /* en */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = en; path = en.lproj/svnX.nib; sourceTree = "<group>"; };
+		6CCE144324CFA24200A447DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Base.lproj/svnX.nib; sourceTree = "<group>"; };
+		6CCE144424CFA24200A447DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Base.lproj/MyWorkingCopy.nib; sourceTree = "<group>"; };
 		830910ED11715F6600E387C8 /* libsvnXplus.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libsvnXplus.a; sourceTree = SOURCE_ROOT; };
 		830B23140DE67B0E0080B2FD /* Review.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Review.js; sourceTree = "<group>"; };
 		8314B1A50DB9769900C6F545 /* svnBlame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = svnBlame.png; sourceTree = "<group>"; };
@@ -702,6 +702,7 @@
 				ja,
 				de,
 				it,
+				Base,
 			);
 			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* svnX */;
 			projectDirPath = "";
@@ -925,7 +926,7 @@
 		2A37F4B6FDCFA73011CA2CEA /* svnX.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6CCE144224CFA14B00A447DD /* en */,
+				6CCE144324CFA24200A447DD /* Base */,
 			);
 			name = svnX.nib;
 			sourceTree = "<group>";
@@ -949,7 +950,7 @@
 		F22965C306B2714600441FA8 /* MyWorkingCopy.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6CCE144124CFA14A00A447DD /* en */,
+				6CCE144424CFA24200A447DD /* Base */,
 			);
 			name = MyWorkingCopy.nib;
 			sourceTree = "<group>";
